@@ -1,0 +1,119 @@
+body{
+  background-color: goldenrod;
+}
+ #header{
+   border-radius:20px;
+   background-color:rgba(0,0,0,0.5);
+   transition: all 2s;
+   color: white;
+ }
+#header:hover{
+ background: rgb(17,9,163);
+background: linear-gradient(90deg, rgba(17,9,163,1) 16%, rgba(66,66,120,1) 22%, rgba(80,80,138,1) 27%, rgba(100,100,164,1) 33%, rgba(237,144,22,1) 46%, rgba(16,205,67,1) 59%, rgba(11,207,127,1) 68%, rgba(0,212,255,1) 77%, rgba(0,212,255,1) 85%); 
+  color: black;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  font-family: cursive;
+  align-items: center;
+}
+.logo img{width: 100px;}
+.headercontent ul li{
+  display:inline-block ;
+  list-style-type: none;
+}
+a{text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 8px;
+  color:white;
+ }
+
+#about{
+  background-color: #f1bf09;
+  text-align: center;
+}
+#city{
+  background-color:lime;
+  font-family:cursive;
+  text-align:center;
+}
+#gallery{
+  width:100%;
+  text-align:center;
+  background-color:gold;
+  padding-top:5px;
+  padding-bottom:25px;
+  border-radius: 50px;
+  transition: all 2s;
+}
+#gallery:hover{
+  background:linear-gradient(120deg,blue,black)
+}
+.galImg{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+.galImg img{
+  width:350px;
+  height:280px;
+  object-fit:cover;
+  margin:3px;
+  border-radius: 50%;
+  transition: all 2s;
+ filter: grayscale(100%);
+}
+.galImg img:hover{
+  border-radius: 3px;
+   filter:none;
+}
+#sport{
+  text-align: center;
+  background-color:#44d8fd;
+  border-radius:3px;
+  padding: 10px;
+}
+.sport_img{
+ width:100%;
+  display: flex;
+  padding:10px;
+  justify-content: space-around;
+}
+.sport_img img{
+  width:500px;
+  margin: 10px;
+  border-radius:5px;
+}
+#sport button{
+  background-color: gold;
+  font-weight:bold;
+  padding:5px;
+}
+#Game{
+  width: 100%;
+  padding: 10px;
+margin-top: 10px;
+  border-radius: 10px;
+  background:linear-gradient(120deg,black,blueviolet);
+  color:white;
+  text-align: center;
+}
+.beyblade_content p{
+  color:white;
+  font-family: cursive;
+}
+
+.beyblade_content img{
+  width:300px;
+  border-radius: 50%;
+  transition: all 2s;
+  filter:grayscale(95%);
+
+}
+.beyblade_content img:hover{
+  border-radius:0;
+  filter:none;
+  
+}
